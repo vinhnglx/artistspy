@@ -11,6 +11,8 @@ gem 'puma', '~> 3.7'
 ### Handling Cross-origin Resource Sharing (CORS)
 gem 'rack-cors'
 
+### Environment variables management
+gem 'figaro'
 
 group :development, :test do
   # Debugging
