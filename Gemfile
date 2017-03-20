@@ -30,6 +30,15 @@ group :development, :test do
 
   ### Anotate schema
   gem 'annotate'
+
+  ### Unit test
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'simplecov'
 end
 
 group :development do
