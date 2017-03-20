@@ -14,6 +14,9 @@ gem 'rack-cors'
 ### Environment variables management
 gem 'figaro'
 
+### JSON generation
+gem 'active_model_serializers', '~> 0.10.0'
+
 group :development, :test do
   # Debugging
   gem 'byebug'
