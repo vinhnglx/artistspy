@@ -24,8 +24,12 @@ gem 'rails_best_practices'
 gem 'rubocop'
 
 group :development, :test do
-  # Debugging
+  ### Debugging
   gem 'byebug'
+  gem 'awesome_print'
+
+  ### Anotate schema
+  gem 'annotate'
 end
 
 group :development do
