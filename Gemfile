@@ -17,6 +17,12 @@ gem 'figaro'
 ### JSON generation
 gem 'active_model_serializers', '~> 0.10.0'
 
+### Coding style
+gem 'brakeman'
+gem 'bullet'
+gem 'rails_best_practices'
+gem 'rubocop'
+
 group :development, :test do
   # Debugging
   gem 'byebug'
@@ -25,4 +31,3 @@ end
 group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
 end
-
