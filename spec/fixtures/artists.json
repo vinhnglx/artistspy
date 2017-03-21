@@ -1,0 +1,462 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=eminem&type=artist&offset=0&limit=50",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+        },
+        "followers": {
+          "href": null,
+          "total": 7621119
+        },
+        "genres": [
+          "detroit hip hop",
+          "g funk",
+          "hip hop",
+          "pop rap",
+          "rap"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "images": [
+          {
+            "height": 621,
+            "url": "https://i.scdn.co/image/15c446495ae50039ba2bef43172c66240fe0605a",
+            "width": 1000
+          },
+          {
+            "height": 397,
+            "url": "https://i.scdn.co/image/184c822d252ceb7561539063a904ef433ac43562",
+            "width": 640
+          },
+          {
+            "height": 124,
+            "url": "https://i.scdn.co/image/0059ebe7ea62b9efde13eda6c6bbc605382b41e6",
+            "width": 200
+          },
+          {
+            "height": 40,
+            "url": "https://i.scdn.co/image/683e358f53d8a3d5ae8ae76053811e836931c94a",
+            "width": 64
+          }
+        ],
+        "name": "Eminem",
+        "popularity": 88,
+        "type": "artist",
+        "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5lGxPtjzZVvTSwQPHYcKhX"
+        },
+        "followers": {
+          "href": null,
+          "total": 262
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/5lGxPtjzZVvTSwQPHYcKhX",
+        "id": "5lGxPtjzZVvTSwQPHYcKhX",
+        "images": [
+
+        ],
+        "name": "The Madd Rapper (Featuring Eminem)",
+        "popularity": 14,
+        "type": "artist",
+        "uri": "spotify:artist:5lGxPtjzZVvTSwQPHYcKhX"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7xnSWNjvQogp4IE5Wtw4YS"
+        },
+        "followers": {
+          "href": null,
+          "total": 1750
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/7xnSWNjvQogp4IE5Wtw4YS",
+        "id": "7xnSWNjvQogp4IE5Wtw4YS",
+        "images": [
+
+        ],
+        "name": "Bad Meets Evil (Eminem & Royce)",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:7xnSWNjvQogp4IE5Wtw4YS"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3S2QVJW2ql8w8rVQIa3x5G"
+        },
+        "followers": {
+          "href": null,
+          "total": 90
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/3S2QVJW2ql8w8rVQIa3x5G",
+        "id": "3S2QVJW2ql8w8rVQIa3x5G",
+        "images": [
+
+        ],
+        "name": "High and Mighty and Eminem",
+        "popularity": 3,
+        "type": "artist",
+        "uri": "spotify:artist:3S2QVJW2ql8w8rVQIa3x5G"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2kCT64JKxm5JLhd2YggpDP"
+        },
+        "followers": {
+          "href": null,
+          "total": 57
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/2kCT64JKxm5JLhd2YggpDP",
+        "id": "2kCT64JKxm5JLhd2YggpDP",
+        "images": [
+
+        ],
+        "name": "DJ KAYSLAY featuring Eminem and Obie Trice",
+        "popularity": 7,
+        "type": "artist",
+        "uri": "spotify:artist:2kCT64JKxm5JLhd2YggpDP"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/52Qhb96Tc4f0zMSiqqRKr7"
+        },
+        "followers": {
+          "href": null,
+          "total": 45
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/52Qhb96Tc4f0zMSiqqRKr7",
+        "id": "52Qhb96Tc4f0zMSiqqRKr7",
+        "images": [
+
+        ],
+        "name": "Mc Cavallo feat. Gli Eminem, I Nate Dogg",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:52Qhb96Tc4f0zMSiqqRKr7"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3INvGVvQJoD9RWQUc7ogl1"
+        },
+        "followers": {
+          "href": null,
+          "total": 27
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/3INvGVvQJoD9RWQUc7ogl1",
+        "id": "3INvGVvQJoD9RWQUc7ogl1",
+        "images": [
+
+        ],
+        "name": "Jason Porter, Duke, PROOF of Eminem D12, D-Roll, Crooked",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3INvGVvQJoD9RWQUc7ogl1"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/16SfgOBulDFXWORWr5d3qq"
+        },
+        "followers": {
+          "href": null,
+          "total": 176
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/16SfgOBulDFXWORWr5d3qq",
+        "id": "16SfgOBulDFXWORWr5d3qq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/23a3e730256f4c7738202245fdabeefc71881959",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/0e31827df0b223d43adaac1be41307f0d6e4524a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/73ab944282c400349be62a2b7d413c3a3bb11219",
+            "width": 64
+          }
+        ],
+        "name": "Emine'm",
+        "popularity": 2,
+        "type": "artist",
+        "uri": "spotify:artist:16SfgOBulDFXWORWr5d3qq"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7CiF1s8WdmvlfIF7aOs9Gj"
+        },
+        "followers": {
+          "href": null,
+          "total": 60
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/7CiF1s8WdmvlfIF7aOs9Gj",
+        "id": "7CiF1s8WdmvlfIF7aOs9Gj",
+        "images": [
+
+        ],
+        "name": "Bad Meets Evil Feat. Eminem & Royce Da 5'9\"",
+        "popularity": 4,
+        "type": "artist",
+        "uri": "spotify:artist:7CiF1s8WdmvlfIF7aOs9Gj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1uN9wevihRCbv6AwFSla0B"
+        },
+        "followers": {
+          "href": null,
+          "total": 199
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/1uN9wevihRCbv6AwFSla0B",
+        "id": "1uN9wevihRCbv6AwFSla0B",
+        "images": [
+
+        ],
+        "name": "Various Artists - Eminem Tribute",
+        "popularity": 13,
+        "type": "artist",
+        "uri": "spotify:artist:1uN9wevihRCbv6AwFSla0B"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2mOgJyJzA4bxXT5DIMhCII"
+        },
+        "followers": {
+          "href": null,
+          "total": 21
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/2mOgJyJzA4bxXT5DIMhCII",
+        "id": "2mOgJyJzA4bxXT5DIMhCII",
+        "images": [
+
+        ],
+        "name": "Made famous by Eminem",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:2mOgJyJzA4bxXT5DIMhCII"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7Aw10uVpJqPO2VgY1ku7a9"
+        },
+        "followers": {
+          "href": null,
+          "total": 47
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/7Aw10uVpJqPO2VgY1ku7a9",
+        "id": "7Aw10uVpJqPO2VgY1ku7a9",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c4c46fe10eab3313ff76828c8ac9ab748ff77384",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/94b71dfcdf88307e9cb545c4f82d9dba9407f248",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/2982ac90a743725fc6caeeac65e3f1942f490a7d",
+            "width": 64
+          }
+        ],
+        "name": "Tribute to Eminem",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:7Aw10uVpJqPO2VgY1ku7a9"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/27f8D9MYt7sgQmQlZaOaL3"
+        },
+        "followers": {
+          "href": null,
+          "total": 445
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/27f8D9MYt7sgQmQlZaOaL3",
+        "id": "27f8D9MYt7sgQmQlZaOaL3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/49335f6fc07cb55c3dd6411b5a9f25b62e63590b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/f626d310eb72523349b3ec305afd0d65b3e3ee09",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/f4e2d0b992b4d00556b88424c814cebfc6a08dc2",
+            "width": 64
+          }
+        ],
+        "name": "Tribute to Eminem & Rihanna",
+        "popularity": 5,
+        "type": "artist",
+        "uri": "spotify:artist:27f8D9MYt7sgQmQlZaOaL3"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7my8D0poks4bc0bpYXNno9"
+        },
+        "followers": {
+          "href": null,
+          "total": 176
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/7my8D0poks4bc0bpYXNno9",
+        "id": "7my8D0poks4bc0bpYXNno9",
+        "images": [
+
+        ],
+        "name": "Made famous by TI feat. Eminem",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:7my8D0poks4bc0bpYXNno9"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1kmA3iIroiYXIQ3UY4sBhx"
+        },
+        "followers": {
+          "href": null,
+          "total": 110
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/1kmA3iIroiYXIQ3UY4sBhx",
+        "id": "1kmA3iIroiYXIQ3UY4sBhx",
+        "images": [
+
+        ],
+        "name": "Made Famous By Eminem & Rihanna",
+        "popularity": 5,
+        "type": "artist",
+        "uri": "spotify:artist:1kmA3iIroiYXIQ3UY4sBhx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3ElRipFF8JTX7w7wvC0GJh"
+        },
+        "followers": {
+          "href": null,
+          "total": 652
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/3ElRipFF8JTX7w7wvC0GJh",
+        "id": "3ElRipFF8JTX7w7wvC0GJh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/352d7925ea5c6a235190c4bc4ffaee257c5cf46f",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/f88a4688544f531e0a67aed50b36413970d57202",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/c7aa0bac5e4a63a91b80192759ee7812305f15a0",
+            "width": 64
+          }
+        ],
+        "name": "Eminem ft. - Dr. Dre Tribute Band",
+        "popularity": 6,
+        "type": "artist",
+        "uri": "spotify:artist:3ElRipFF8JTX7w7wvC0GJh"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0mO14O4JX0YcZvRBp3BH1s"
+        },
+        "followers": {
+          "href": null,
+          "total": 112
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/0mO14O4JX0YcZvRBp3BH1s",
+        "id": "0mO14O4JX0YcZvRBp3BH1s",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/406e1bc0ca946cb46a676ae987ce7e1f073b9a0e",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/256341be46c39660739b8ef04822e534b3e64173",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/6dec9028029473b94dce9f38315c929e11becc76",
+            "width": 64
+          }
+        ],
+        "name": "Eminem feat Dr. Dre Karaoke Band",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0mO14O4JX0YcZvRBp3BH1s"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 17
+  }
+}

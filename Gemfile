@@ -29,6 +29,9 @@ gem 'travis'
 ### Coverall
 gem 'coveralls', require: false
 
+### HTTP Connect
+gem 'httparty'
+
 group :development, :test do
   ### Debugging
   gem 'byebug'
@@ -45,6 +48,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'simplecov'
+  gem 'webmock'
 end
 
 group :development do
