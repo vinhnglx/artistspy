@@ -29,6 +29,9 @@ gem 'travis'
 ### Coverall
 gem 'coveralls', require: false
 
+### HTTP Connect
+gem 'httparty'
+
 group :development, :test do
   ### Debugging
   gem 'byebug'

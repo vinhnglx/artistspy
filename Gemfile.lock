@@ -101,6 +101,8 @@ GEM
     highline (1.7.8)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.8.1)
     json (2.0.3)
     jsonapi-renderer (0.1.2)
@@ -121,6 +123,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     multi_json (1.12.1)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
@@ -261,6 +264,7 @@ DEPENDENCIES
   database_cleaner
   factory_girl_rails
   figaro
+  httparty
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
   puma (~> 3.7)
