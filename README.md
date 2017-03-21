@@ -56,7 +56,7 @@ The API documentation available on: http://docs.artistspy.apiary.io/
 
 - Access this link: https://artistspy.herokuapp.com/ to see default value of an artist.
 
-- To see APIs please access this link: https://artistspy.herokuapp.com/api/v1
+- APIs endpoint: https://artistspy.herokuapp.com/api/v1/
 
 #### The API available to access on Postman
 
