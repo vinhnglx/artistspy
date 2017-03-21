@@ -1,6 +1,21 @@
 class ApplicationController < ActionController::API
   before_action :check_header
 
+  # Public: Display the APIs endpoint
+  #
+  # Example
+  #
+  #   get('/api/v1')
+  #   # => { artists_url: "xxx", favourite_artist_url: "xxx" }
+  #
+  # Returns the JSON with APIs endpoint
+  def api_index
+    render json: {
+      "artists_url": "/api/v1/artists?{name}",
+      "favourite_artist_url": "/api/v1/favourites/{external_urls,genres,href,spotify_id,name}"
+    }, status: :ok
+  end
+
   # Public: Display the error with wrong URL
   #
   # Example
