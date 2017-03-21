@@ -4,24 +4,25 @@ class SearchableService
 
   DEFAULT_ENDPOINT  = ENV['artist_endpoint']
   DEFAULT_LIMIT     = ENV['api_limit']
-  DEFAULT_QUERY     = ENV['artist_api_query']
 
   # Public: Create constructor
   #
   # Parameters
   #
-  #   api_url - the api endpoint
-  #   limit   - a maximum number of items in the response
-  #   query   - the search query's keywords
+  #   searches - A hash contains query and limit
   #
   # Example
   #
-  #   SearchableService.new('/v1/search?type=artist', 40, 'we are the world')
+  #   SearchableService.new(limit: 40, query: 'tailor swift')
   #
   # Returns nothing
-  def initialize(endpoint = DEFAULT_ENDPOINT, limit = DEFAULT_LIMIT, query = DEFAULT_QUERY)
-    @endpoint = endpoint
+  def initialize(searches = {})
+    raise ArgumentError, "Missing query" unless searches[:query]
+
+    query = searches[:query]
+    limit = searches[:limit] || DEFAULT_LIMIT
     @options = { query: { limit: limit, query: query } }
+    @endpoint = searches[:endpoint] || DEFAULT_ENDPOINT
   end
 
   # Public: Connect to Spotify Server
