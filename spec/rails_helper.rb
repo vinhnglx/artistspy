@@ -68,8 +68,8 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
 
-  # Webmock routes all request to FakeSpofy
+  # Webmock routes all request from api.spotify.com to a sample JSON data
   config.before(:each) do
-    stub_request(:any, /api.spotify.com/).to_rack(FakeSpofy)
+    stub_request(:get, /api.spotify.com/).to_return(status: 200, body: File.open(File.dirname(__FILE__) + '/fixtures/artists.json'), headers: {})
   end
 end
