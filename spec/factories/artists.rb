@@ -13,7 +13,7 @@
 #
 
 FactoryGirl.define do
-  sequence(:spotify_id) { |n| "abcdef #{n}"}
+  sequence(:spotify_id) { |n| "abcdef #{n}" }
   factory :artist do
     spotify_id
     external_urls "https://open.spotify.com/artist/123456"
