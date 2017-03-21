@@ -34,8 +34,8 @@ gem 'httparty'
 
 group :development, :test do
   ### Debugging
-  gem 'byebug'
   gem 'awesome_print'
+  gem 'byebug'
 
   ### Anotate schema
   gem 'annotate'

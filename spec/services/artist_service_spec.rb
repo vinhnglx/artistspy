@@ -10,7 +10,7 @@ RSpec.describe ArtistService do
 
     expect(artists.size).to eq 17
     fields.each do |field|
-      expect(artists.map(&:keys).uniq.flatten.include? field).to be_truthy
+      expect(artists.map(&:keys).uniq.flatten.include?(field)).to be_truthy
     end
   end
 end

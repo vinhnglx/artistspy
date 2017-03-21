@@ -34,6 +34,6 @@ class SearchableService
   #
   # Returns an object with response from Spotify
   def connect
-    response = self.class.get(@endpoint, @options)
+    self.class.get(@endpoint, @options)
   end
 end
